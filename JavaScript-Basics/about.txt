@@ -1,0 +1,3 @@
+Isidro Arzate
+
+This is project is a recreation of a static webpage. It will only use HTML and Javascript
