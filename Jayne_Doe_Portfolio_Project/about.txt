@@ -1,0 +1,5 @@
+Isidro Arzate
+Thos Project is a Mock Portfolio Website for Jayne Doe.
+It Consist of 5 Blocks within a wrapper
+It will require inputting images and properly formatting
+with CSS.
