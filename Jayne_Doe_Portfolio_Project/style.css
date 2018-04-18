@@ -1,0 +1,145 @@
+/*CSS reset Setting*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*This id wrapper will encapsulate all the blocks necessary for the website and will be set to 
+a light grey color*/
+
+#wrapper{
+		width: 1000px;
+		height:2000px;
+		background-color: rgb(73,1,46);
+		margin: 0px auto;
+		
+
+		}
+/*This header will manage the header block*/
+.header{
+	height: 100px;
+	width: 1000px;
+	background-color: rgb(234,239,247);
+	display: inline-block;
+}
+
+/*h1 holds Jayne Doe's Name*/
+h1{
+	font-size: 50px;
+	font:sans-serif;
+	text-align: left;
+	display: inline-block;
+}
+/*h2 holds Jayne Doe's Tagline*/
+h2{
+	text-align: right;
+	padding-left: 380px;
+	/*line-height: 100px;*/
+	/*vertical-align: middle;*/
+	display: inline;
+
+}
+/*Within mugshot we are importing the image Scaling it and adding a boarder*/
+.mugshot{
+	margin: 20px;
+	background-image: url('/Users/isidroarzate/Desktop/DojoAssignments/WebFundamentals/Jayne_Doe_Portfolio_Project/Portfolio_images/photo_of_me.jpg');
+	width: 450px;
+	height: 300px;
+	vertical-align: top;
+	background-repeat: no-repeat;;
+	background-size: 100% 100%;
+	border: 5px solid silver;
+
+	display: inline-block;;
+}
+/*This about container will contain the header About Me a description as well as link*/
+.about{
+	 margin: 20px;
+	 width: 455px;
+	 height: 310px;
+	 
+	 background-color:rgb(234,239,247);
+
+	 display: inline-block; 
+}
+/*The aboutheader contains the about header*/
+.aboutheader{
+	
+	width: 435px;
+	height: 50px;
+	background-color: rgb(73,73,72);
+	padding: 10px;
+	text-align: left;
+	line-height: 50px;
+	vertical-align: middle;
+	color: white;
+	display: inline-block;
+}
+
+p{
+	padding: 10px;
+}
+a{
+	padding: 10px;
+}
+/*This is the container that will hold LA Mode and it's technologies*/
+.lamodescription{
+	margin: 20px;
+	width: 290px;
+	height:600px;
+	background-color:rgb(234,239,247); 
+	display: inline-block;
+	vertical-align: top;
+
+}
+.lamodescriptionheader{
+	width:290px;
+	height: 50px;
+	background-color: rgb(73,73,72);
+	color: white;
+	display: inline-block;
+
+
+}
+
+.contactsdescription{
+	margin: 20px;
+	width: 290px;
+	height:600px;
+	background-color:rgb(234,239,247); 
+	display: inline-block;
+	vertical-align: top;
+
+}
+.contactsdescriptionheader{
+	width:290px;
+	height: 50px;
+	background-color: rgb(73,73,72);
+	color: white;
+	display: inline-block;
+	
+
+
+}
+
+.fiveelevendescription{
+	margin: 20px;
+	width: 290px;
+	height:600px;
+	background-color:rgb(234,239,247);
+	display: inline-block;
+	vertical-align: top;
+}
+.fiveelevendescriptionheader{
+	width:290px;
+	height: 50px;
+	background-color: rgb(73,73,72);
+	color: white;
+	display: inline-block;
+	
+
+
+}
+
+
+
